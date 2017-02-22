@@ -4,6 +4,5 @@ Design d'une carte électronique permettant de d'échanger des messages et de lo
 
 ## Définition des acteurs
 
-
-
+[[radio-global.png]]
 
