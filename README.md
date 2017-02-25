@@ -29,8 +29,25 @@ Par ailleurs, l'alimentation qui sera fournie à la carte sera du 5V (en raison 
 
 ### Système balise
 
-T.B.D.
+![archi balise](/architecture-balise.png)
+
+Dans les balises (fixes et sur les robots adverses), la carte radio est l'unique carte, et n'est accompagnée que d'une batterie. Elle doit donc être autonome.
+
+La faisabilité d'un système interne de recharge doit être étudié. Dans tous les cas, le système doit pouvoir détecter la fin de décharge de la batterie afin d'éviter la destruction de celle-ci.
 
 ## Contraintes
 
-T.B.D.
+#### RC1 Placement du module radio
+Pour fonctionner correctement, le module radio DWM1000 doit être placé conformément aux contraintes de la datasheet du DWM1000 page 17.
+
+#### RC2 Taille de la carte
+Afin de pouvoir être embarqué dans les balises, la carte devra avoir des dimensions maximales de 70mmx70mm. De plus, il est important de minimiser la taille de la carte pour des raisons d'efficacité budgétaire. Il faut également prévoir le placement des batteries pour les balises, afin que le système total rentre dans un pavé de 80x80x80mm comme spécifié dans le règlement de la coupe de France de robotique.
+
+#### RC3 Placement des connecteurs
+Tout les connecteurs devront être placés de telle sorte qu'un câble connecté ne puisse pas se mettre dans le chemin du signal radio entre deux modules.
+
+#### RC4 Programmation et debug de la carte
+La programmation et le debug des cartes sera fait avec les sondes J-link du club en SWD et devra utiliser un connecteur comme [celui-ci](http://fr.farnell.com/samtec/shf-105-01-l-d-sm/embase-male-1-27mm-2x5-voies/dp/1885915).
+
+#### RC5 Alimentation de la carte
+L'alimentation de la carte se fera dans les robots en 5VDC et dans les balises directement depuis les batteries sans composant extérieur.
