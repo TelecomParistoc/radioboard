@@ -51,3 +51,6 @@ La programmation et le debug des cartes sera fait avec les sondes J-link du club
 
 #### RC5 Alimentation de la carte
 L'alimentation de la carte se fera dans les robots en 5VDC et dans les balises directement depuis les batteries sans composant extérieur.
+
+#### RC6 Technologie des batteries
+Le règlement de la coupe de France de robotique interdit l'utilisation de batteries Li-Ion et Li-Po en dehors d'un sac de protection, dont les dimensions rendront l'intégration dans des balises difficile. Ces deux technologies sont donc exclues.
