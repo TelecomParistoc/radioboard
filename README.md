@@ -4,7 +4,7 @@ Design d'une carte électronique permettant de d'échanger des messages et de lo
 
 ## Définition des acteurs
 
-![radio global](/Specs/radio-global.png)
+![radio global](/specs/radio-global.png)
 
 On distingue 3 types d'acteurs aux besoins différents :
 
@@ -18,7 +18,7 @@ Pour des raisons d'efficacité, il a été décidé de ne concevoir qu'une seule
 
 ### Système robot
 
-![archi robot](/Specs/architecture-robot.png)
+![archi robot](/specs/architecture-robot.png)
 
 Il est nécessaire de fournir 3 ports :
 * Un port esclave sur le bus I2C principal du robot, permettant la communication avec le Raspberry Pi
@@ -29,7 +29,7 @@ Par ailleurs, l'alimentation qui sera fournie à la carte sera du 5V (en raison 
 
 ### Système balise
 
-![archi balise](/Specs/architecture-balise.png)
+![archi balise](/specs/architecture-balise.png)
 
 Dans les balises (fixes et sur les robots adverses), la carte radio est l'unique carte, et n'est accompagnée que d'une batterie. Elle doit donc être autonome.
 
