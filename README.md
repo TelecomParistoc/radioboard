@@ -54,3 +54,7 @@ L'alimentation de la carte se fera dans les robots en 5VDC et dans les balises d
 
 #### RC6 Technologie des batteries
 Le règlement de la coupe de France de robotique interdit l'utilisation de batteries Li-Ion et Li-Po en dehors d'un sac de protection, dont les dimensions rendront l'intégration dans des balises difficile. Ces deux technologies sont donc exclues.
+
+#### RC7 Configuration du connecteur I2C
+Le connecteur I2C reliant la carte au bus principal et fournissant l'alimentation **5V** est un micromatch 6 pins et doit avoir la configuration suivante :
+![connecteur I2C](/specs/connecteur-I2C.jpeg)
