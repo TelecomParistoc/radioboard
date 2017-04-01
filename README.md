@@ -21,6 +21,7 @@ Pour des raisons d'efficacité, il a été décidé de ne concevoir qu'une seule
 ![archi robot](/specs/architecture-robot.png)
 
 Il est nécessaire de fournir 3 ports :
+
 * Un port esclave sur le bus I2C principal du robot, permettant la communication avec le Raspberry Pi
 * Un port esclave SPI pour une liaison direct rapide à faible latence avec la carte de contrôle des moteurs
 * Un port série pour ouvrir un terminal série à distance sur le Raspberry Pi contrôlé depuis une balise fixe en cas de perte de la connexion WiFi (environnement difficile pendant la coupe)
