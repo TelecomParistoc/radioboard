@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -9679,8 +9679,8 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="18p"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="18p"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="STAT3" library="misc" deviceset="LED" device="CHIPLED_0805"/>
-<part name="STAT2" library="misc" deviceset="LED" device="CHIPLED_0805"/>
+<part name="BATT" library="misc" deviceset="LED" device="CHIPLED_0805"/>
+<part name="RX/TX" library="misc" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="CN1" library="misc" deviceset="USB" device="MINIB"/>
@@ -9697,7 +9697,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="DWM1000" library="DWM1000" deviceset="DWM1000" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
-<part name="STAT1" library="misc" deviceset="LED" device="CHIPLED_0805"/>
+<part name="SYNC" library="misc" deviceset="LED" device="CHIPLED_0805"/>
 <part name="IC1" library="we-power" deviceset="VREG" device="-TS1117CW-3V3"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
@@ -9713,6 +9713,10 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="M0805" value="2.2k"/>
+<part name="ON" library="misc" deviceset="LED" device="CHIPLED_0805"/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9749,11 +9753,11 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <instance part="C7" gate="G$1" x="187.96" y="88.9" rot="R90"/>
 <instance part="C8" gate="G$1" x="187.96" y="96.52" rot="R90"/>
 <instance part="GND5" gate="1" x="193.04" y="81.28"/>
-<instance part="STAT3" gate="G$1" x="165.1" y="111.76" smashed="yes" rot="R90">
+<instance part="BATT" gate="G$1" x="165.1" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.292" y="115.316" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="169.672" y="117.475" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="STAT2" gate="G$1" x="165.1" y="106.68" smashed="yes" rot="R90">
+<instance part="RX/TX" gate="G$1" x="165.1" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.292" y="110.236" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="169.672" y="112.395" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9787,7 +9791,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <attribute name="NAME" x="151.13" y="103.0986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="STAT1" gate="G$1" x="165.1" y="101.6" smashed="yes" rot="R90">
+<instance part="SYNC" gate="G$1" x="165.1" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.292" y="105.156" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="169.672" y="107.315" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9812,6 +9816,16 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <instance part="P+3" gate="1" x="73.66" y="116.84"/>
 <instance part="GND14" gate="1" x="73.66" y="86.36" rot="MR0"/>
 <instance part="C13" gate="G$1" x="63.5" y="96.52"/>
+<instance part="R7" gate="G$1" x="78.74" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="-54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.962" y="-49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ON" gate="G$1" x="78.74" y="-40.64" smashed="yes">
+<attribute name="NAME" x="82.296" y="-45.212" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="84.455" y="-45.212" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="78.74" y="-33.02"/>
+<instance part="GND15" gate="1" x="78.74" y="-58.42" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -9928,14 +9942,14 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <pinref part="DWM1000" gate="DWM1000" pin="VSS5"/>
 </segment>
 <segment>
-<pinref part="STAT1" gate="G$1" pin="C"/>
+<pinref part="SYNC" gate="G$1" pin="C"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="170.18" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="STAT2" gate="G$1" pin="C"/>
+<pinref part="RX/TX" gate="G$1" pin="C"/>
 <wire x1="170.18" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="106.68" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 <junction x="172.72" y="101.6"/>
-<pinref part="STAT3" gate="G$1" pin="C"/>
+<pinref part="BATT" gate="G$1" pin="C"/>
 <wire x1="170.18" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <junction x="172.72" y="106.68"/>
@@ -9966,6 +9980,10 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <wire x1="63.5" y1="91.44" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <junction x="73.66" y="88.9"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -10042,6 +10060,11 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <wire x1="50.8" y1="-40.64" x2="63.5" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="63.5" y="-40.64"/>
 </segment>
+<segment>
+<pinref part="ON" gate="G$1" pin="A"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="78.74" y1="-35.56" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RPI_SDA" class="0">
 <segment>
@@ -10113,14 +10136,14 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <net name="N$6" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="STAT3" gate="G$1" pin="A"/>
+<pinref part="BATT" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="STAT2" gate="G$1" pin="A"/>
+<pinref part="RX/TX" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10377,7 +10400,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <net name="N$10" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="STAT1" gate="G$1" pin="A"/>
+<pinref part="SYNC" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10391,6 +10414,12 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <junction x="73.66" y="99.06"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="ON" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
